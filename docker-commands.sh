@@ -7,4 +7,4 @@ docker rmi feedback-volume
 docker build -t feedback-volume .
 
 # Run a Docker container
-docker run -d -p 3000:80 -v feedback:"/Users/harshvaghani/Desktop/programmingprojects/devops/dummyapps/feedback-app-nodejs" --name feedback-container --rm feedback-volume
+docker run -d -p 3000:80 -v feedback:/app/feedback --name feedback-container --rm feedback-volume
