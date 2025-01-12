@@ -1,5 +1,5 @@
-## Adding an alias to run script files
-
+## ****TIP** Adding an alias to run script files
+---
 
 ## Editing the Bash Configuration File
 
